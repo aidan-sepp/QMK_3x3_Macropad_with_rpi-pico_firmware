@@ -3,9 +3,9 @@
 ![RPI pico pinout image](https://www.raspberrypi.com/documentation/microcontrollers/images/pico-2-r4-pinout.svg)
 
 
-* Keyboard Maintainer: [aidan seppings](https://github.com/aidan-sepp)
+* Config Maintainer: [aidan-sepp](https://github.com/aidan-sepp)
 ## Description
-This is a 3 x 3 macropad made with a RPI PICO
+This is a 3 x 3 macropad firmware configured for the a RPI PICO
 It can be used with via but you will need to import the custom layouts
 
 Make example for this keyboard (after setting up your build environment):
@@ -24,6 +24,8 @@ Enter the bootloader using the set bootloader key :
 
 * **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
 Key 0,0 is the top left key
+
+# via
 
 This firmware configuration supports via but you will need to use the design tab to import the layout as the ## via.json
 see: https://youtu.be/7d5yzBOup9U
